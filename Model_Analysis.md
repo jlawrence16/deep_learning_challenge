@@ -48,3 +48,5 @@ In summary, the most accurate model found here (0.7263) consisted of three hidde
 
 I would recommend investigating if the features in the collected data are true predictors of success. For example, it might be useful to collect data on how well each organization used funding from other sources.
 
+I would also recommend considering a Logistic Regression model as an alternative to the TensorFlow neural network used here. I ran a Logistic Regression on the same data (see file AlphabetSoupCharity_Logistic_Regression.ipynb). This model achieved an accuracy (0.7195) similar to that of the neural network model (0.7263) but took less time to run with no need for tuning of hyperparameters. Logistic Regression models are also generally considered to be more interpretable theat neural networks which would make the model operation easier to explain to various stakeholders.  
+
